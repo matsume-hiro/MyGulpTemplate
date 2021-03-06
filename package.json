@@ -1,0 +1,26 @@
+{
+  "name": "MyGulpTemplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:matsume-hiro/MyGulpTemplate.git",
+  "author": "matsume-hiro <matsume@techflyer.co.jp>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp watch",
+    "build": "gulp build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "css-declaration-sorter": "^4.0.1",
+    "css-mqpacker": "^7.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0"
+  }
+}
